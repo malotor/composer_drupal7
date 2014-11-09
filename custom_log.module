@@ -1,0 +1,9 @@
+<?php
+
+require DRUPAL_ROOT . '/vendor/autoload.php';
+
+use custom_log\CustomLog;
+
+function custom_log_init() {
+  CustomLog::log("Module Logger inicializated");
+}
